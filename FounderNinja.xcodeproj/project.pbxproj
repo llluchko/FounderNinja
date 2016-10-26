@@ -19,6 +19,7 @@
 		695F55981DC106B300AD7A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695F55961DC106B300AD7A2F /* LaunchScreen.storyboard */; };
 		695F55A31DC106B300AD7A2F /* FounderNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55A21DC106B300AD7A2F /* FounderNinjaTests.m */; };
 		695F55AE1DC106B300AD7A2F /* FounderNinjaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55AD1DC106B300AD7A2F /* FounderNinjaUITests.m */; };
+		695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55BD1DC10ED200AD7A2F /* SessionManager.m */; };
 		9A20052709BDE0BFF086C970 /* Pods_FounderNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CC5176DB6996B5071B59C6 /* Pods_FounderNinja.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,8 @@
 		695F55A91DC106B300AD7A2F /* FounderNinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FounderNinjaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695F55AD1DC106B300AD7A2F /* FounderNinjaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FounderNinjaUITests.m; sourceTree = "<group>"; };
 		695F55AF1DC106B300AD7A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695F55BC1DC10ED200AD7A2F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		695F55BD1DC10ED200AD7A2F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		6EB1938A3B557F3A9001FB2A /* Pods-FounderNinjaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaTests/Pods-FounderNinjaTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B9658EB52691BCEEC7711A7 /* Pods-FounderNinjaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaUITests/Pods-FounderNinjaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7CB9BE087119A11AA4C82384 /* Pods-FounderNinja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinja.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinja/Pods-FounderNinja.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 		695F55811DC106B300AD7A2F /* FounderNinja */ = {
 			isa = PBXGroup;
 			children = (
+				695F55BB1DC10E0400AD7A2F /* Network */,
 				695F55851DC106B300AD7A2F /* AppDelegate.h */,
 				695F55861DC106B300AD7A2F /* AppDelegate.m */,
 				695F558B1DC106B300AD7A2F /* MasterViewController.h */,
@@ -176,6 +180,15 @@
 				695F55AF1DC106B300AD7A2F /* Info.plist */,
 			);
 			path = FounderNinjaUITests;
+			sourceTree = "<group>";
+		};
+		695F55BB1DC10E0400AD7A2F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				695F55BC1DC10ED200AD7A2F /* SessionManager.h */,
+				695F55BD1DC10ED200AD7A2F /* SessionManager.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 		764D274681B59DD8DF13DC88 /* Frameworks */ = {
@@ -471,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */,
 				695F55901DC106B300AD7A2F /* DetailViewController.m in Sources */,
 				695F558D1DC106B300AD7A2F /* MasterViewController.m in Sources */,
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
