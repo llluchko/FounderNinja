@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		48ACD8F007603362C8405729 /* Pods_FounderNinjaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DF93343C716C12F93A9587 /* Pods_FounderNinjaUITests.framework */; };
 		4ADA1F20542978BB5AE172EC /* Pods_FounderNinjaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B8CDC301B8C7AAB5AD271A /* Pods_FounderNinjaTests.framework */; };
+		691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */; };
 		695F55841DC106B300AD7A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55831DC106B300AD7A2F /* main.m */; };
 		695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55861DC106B300AD7A2F /* AppDelegate.m */; };
 		695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 695F55881DC106B300AD7A2F /* FounderNinja.xcdatamodeld */; };
@@ -44,6 +45,8 @@
 		01DF93343C716C12F93A9587 /* Pods_FounderNinjaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FounderNinjaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2254CA74817533CDECE8EE /* Pods-FounderNinjaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaTests/Pods-FounderNinjaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		60A5C1BA6900B518B2A6C6C6 /* Pods-FounderNinjaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaUITests/Pods-FounderNinjaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListRequestModel.h; sourceTree = "<group>"; };
+		691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
 		695F557F1DC106B300AD7A2F /* FounderNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FounderNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695F55831DC106B300AD7A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		695F55851DC106B300AD7A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				695F55991DC106B300AD7A2F /* Info.plist */,
 				695F55881DC106B300AD7A2F /* FounderNinja.xcdatamodeld */,
 				695F55821DC106B300AD7A2F /* Supporting Files */,
+				691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */,
+				691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */,
 			);
 			path = FounderNinja;
 			sourceTree = "<group>";
@@ -489,6 +494,7 @@
 				695F558D1DC106B300AD7A2F /* MasterViewController.m in Sources */,
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
 				695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */,
+				691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */,
 				695F55841DC106B300AD7A2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
