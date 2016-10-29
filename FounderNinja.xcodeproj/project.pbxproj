@@ -10,6 +10,7 @@
 		48ACD8F007603362C8405729 /* Pods_FounderNinjaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DF93343C716C12F93A9587 /* Pods_FounderNinjaUITests.framework */; };
 		4ADA1F20542978BB5AE172EC /* Pods_FounderNinjaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B8CDC301B8C7AAB5AD271A /* Pods_FounderNinjaTests.framework */; };
 		691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */; };
+		694AF89D1DC4E50500FF0B35 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF89C1DC4E50500FF0B35 /* ArticleModel.m */; };
 		695F55841DC106B300AD7A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55831DC106B300AD7A2F /* main.m */; };
 		695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55861DC106B300AD7A2F /* AppDelegate.m */; };
 		695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 695F55881DC106B300AD7A2F /* FounderNinja.xcdatamodeld */; };
@@ -47,6 +48,8 @@
 		60A5C1BA6900B518B2A6C6C6 /* Pods-FounderNinjaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaUITests/Pods-FounderNinjaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListRequestModel.h; sourceTree = "<group>"; };
 		691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
+		694AF89B1DC4E50500FF0B35 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		694AF89C1DC4E50500FF0B35 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
 		695F557F1DC106B300AD7A2F /* FounderNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FounderNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695F55831DC106B300AD7A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		695F55851DC106B300AD7A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		694AF89A1DC4E4E100FF0B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				694AF89B1DC4E50500FF0B35 /* ArticleModel.h */,
+				694AF89C1DC4E50500FF0B35 /* ArticleModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		695F55761DC106B300AD7A2F = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +154,7 @@
 		695F55811DC106B300AD7A2F /* FounderNinja */ = {
 			isa = PBXGroup;
 			children = (
+				694AF89A1DC4E4E100FF0B35 /* Model */,
 				695F55BB1DC10E0400AD7A2F /* Network */,
 				695F55851DC106B300AD7A2F /* AppDelegate.h */,
 				695F55861DC106B300AD7A2F /* AppDelegate.m */,
@@ -155,8 +168,6 @@
 				695F55991DC106B300AD7A2F /* Info.plist */,
 				695F55881DC106B300AD7A2F /* FounderNinja.xcdatamodeld */,
 				695F55821DC106B300AD7A2F /* Supporting Files */,
-				691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */,
-				691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */,
 			);
 			path = FounderNinja;
 			sourceTree = "<group>";
@@ -192,6 +203,8 @@
 			children = (
 				695F55BC1DC10ED200AD7A2F /* SessionManager.h */,
 				695F55BD1DC10ED200AD7A2F /* SessionManager.m */,
+				691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */,
+				691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -495,6 +508,7 @@
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
 				695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */,
 				691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */,
+				694AF89D1DC4E50500FF0B35 /* ArticleModel.m in Sources */,
 				695F55841DC106B300AD7A2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
