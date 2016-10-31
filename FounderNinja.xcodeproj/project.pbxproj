@@ -11,6 +11,7 @@
 		4ADA1F20542978BB5AE172EC /* Pods_FounderNinjaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B8CDC301B8C7AAB5AD271A /* Pods_FounderNinjaTests.framework */; };
 		691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */; };
 		694AF89D1DC4E50500FF0B35 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF89C1DC4E50500FF0B35 /* ArticleModel.m */; };
+		694AF8A01DC7AC3100FF0B35 /* ArticleListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF89F1DC7AC3100FF0B35 /* ArticleListResponseModel.m */; };
 		695F55841DC106B300AD7A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55831DC106B300AD7A2F /* main.m */; };
 		695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55861DC106B300AD7A2F /* AppDelegate.m */; };
 		695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 695F55881DC106B300AD7A2F /* FounderNinja.xcdatamodeld */; };
@@ -50,6 +51,8 @@
 		691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
 		694AF89B1DC4E50500FF0B35 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
 		694AF89C1DC4E50500FF0B35 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		694AF89E1DC7AC3100FF0B35 /* ArticleListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListResponseModel.h; sourceTree = "<group>"; };
+		694AF89F1DC7AC3100FF0B35 /* ArticleListResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListResponseModel.m; sourceTree = "<group>"; };
 		695F557F1DC106B300AD7A2F /* FounderNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FounderNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695F55831DC106B300AD7A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		695F55851DC106B300AD7A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +128,10 @@
 			children = (
 				694AF89B1DC4E50500FF0B35 /* ArticleModel.h */,
 				694AF89C1DC4E50500FF0B35 /* ArticleModel.m */,
+				694AF89E1DC7AC3100FF0B35 /* ArticleListResponseModel.h */,
+				694AF89F1DC7AC3100FF0B35 /* ArticleListResponseModel.m */,
+				691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */,
+				691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -203,8 +210,6 @@
 			children = (
 				695F55BC1DC10ED200AD7A2F /* SessionManager.h */,
 				695F55BD1DC10ED200AD7A2F /* SessionManager.m */,
-				691CFA9C1DC29D32007F32C4 /* ArticleListRequestModel.h */,
-				691CFA9D1DC29D32007F32C4 /* ArticleListRequestModel.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */,
 				695F55901DC106B300AD7A2F /* DetailViewController.m in Sources */,
 				695F558D1DC106B300AD7A2F /* MasterViewController.m in Sources */,
+				694AF8A01DC7AC3100FF0B35 /* ArticleListResponseModel.m in Sources */,
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
 				695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */,
 				691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */,
