@@ -23,6 +23,7 @@
 		695F55A31DC106B300AD7A2F /* FounderNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55A21DC106B300AD7A2F /* FounderNinjaTests.m */; };
 		695F55AE1DC106B300AD7A2F /* FounderNinjaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55AD1DC106B300AD7A2F /* FounderNinjaUITests.m */; };
 		695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55BD1DC10ED200AD7A2F /* SessionManager.m */; };
+		696E41B11DC912DE00F3A83E /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E41B01DC912DE00F3A83E /* APIManager.m */; };
 		9A20052709BDE0BFF086C970 /* Pods_FounderNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CC5176DB6996B5071B59C6 /* Pods_FounderNinja.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		695F55AF1DC106B300AD7A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695F55BC1DC10ED200AD7A2F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		695F55BD1DC10ED200AD7A2F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		696E41AF1DC912DE00F3A83E /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		696E41B01DC912DE00F3A83E /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		6EB1938A3B557F3A9001FB2A /* Pods-FounderNinjaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaTests/Pods-FounderNinjaTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B9658EB52691BCEEC7711A7 /* Pods-FounderNinjaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaUITests/Pods-FounderNinjaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7CB9BE087119A11AA4C82384 /* Pods-FounderNinja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinja.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinja/Pods-FounderNinja.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 			children = (
 				695F55BC1DC10ED200AD7A2F /* SessionManager.h */,
 				695F55BD1DC10ED200AD7A2F /* SessionManager.m */,
+				696E41AF1DC912DE00F3A83E /* APIManager.h */,
+				696E41B01DC912DE00F3A83E /* APIManager.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -511,6 +516,7 @@
 				695F55901DC106B300AD7A2F /* DetailViewController.m in Sources */,
 				695F558D1DC106B300AD7A2F /* MasterViewController.m in Sources */,
 				694AF8A01DC7AC3100FF0B35 /* ArticleListResponseModel.m in Sources */,
+				696E41B11DC912DE00F3A83E /* APIManager.m in Sources */,
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
 				695F55871DC106B300AD7A2F /* AppDelegate.m in Sources */,
 				691CFA9E1DC29D32007F32C4 /* ArticleListRequestModel.m in Sources */,
