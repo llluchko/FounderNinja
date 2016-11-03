@@ -18,6 +18,24 @@ static NSString *const kApiKey = @"efa48cdfbd124ac8a934619d1814ac2a";
 - (NSURLSessionDataTask *)getArticlesWithRequestModel:(ArticleListRequestModel *)requestModel success:(void (^)(ArticleListResponseModel *responseModel))success failure:(void (^)(NSError *error))failure{
 	
 	NSDictionary *parameters = [MTLJSONAdapter JSONDictionaryFromModel:requestModel error:nil];
+	
+	NSMutableDictionary *parametersWithKey = [[NSMutableDictionary alloc] initWithDictionary:parameters];
+	[parametersWithKey setObject:kApiKey forKey:@"api-key"];
+	
+	return [self GET:kArticlesListPath parameters:parametersWithKey success:^(NSURLSessionDataTask *task, id responseObject) {
+		
+		NSDictionary *responseDictionary = (NSDictionary *)responseObject;
+		
+		NSError *error;
+		ArticleListResponseModel *list = [MTLJSONAdapter modelOfClass:ArticleListResponseModel.class fromJSONDictionary:responseDictionary error:&error];
+		
+		success(list);
+	
+	} failure:^(NSURLSessionDataTask *task, NSError *error) {
+		
+		failure(error);
+	
+	}];
 
 }
 
