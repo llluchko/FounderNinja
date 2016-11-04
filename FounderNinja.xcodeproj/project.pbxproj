@@ -23,6 +23,7 @@
 		695F55A31DC106B300AD7A2F /* FounderNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55A21DC106B300AD7A2F /* FounderNinjaTests.m */; };
 		695F55AE1DC106B300AD7A2F /* FounderNinjaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55AD1DC106B300AD7A2F /* FounderNinjaUITests.m */; };
 		695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F55BD1DC10ED200AD7A2F /* SessionManager.m */; };
+		6968399E1DCD3A420002F3D0 /* ArticleRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6968399D1DCD3A420002F3D0 /* ArticleRealm.m */; };
 		696E41B11DC912DE00F3A83E /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E41B01DC912DE00F3A83E /* APIManager.m */; };
 		9A20052709BDE0BFF086C970 /* Pods_FounderNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CC5176DB6996B5071B59C6 /* Pods_FounderNinja.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,8 @@
 		695F55AF1DC106B300AD7A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695F55BC1DC10ED200AD7A2F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		695F55BD1DC10ED200AD7A2F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		6968399C1DCD3A420002F3D0 /* ArticleRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleRealm.h; sourceTree = "<group>"; };
+		6968399D1DCD3A420002F3D0 /* ArticleRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleRealm.m; sourceTree = "<group>"; };
 		696E41AF1DC912DE00F3A83E /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		696E41B01DC912DE00F3A83E /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		6EB1938A3B557F3A9001FB2A /* Pods-FounderNinjaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FounderNinjaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FounderNinjaTests/Pods-FounderNinjaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 		695F55811DC106B300AD7A2F /* FounderNinja */ = {
 			isa = PBXGroup;
 			children = (
+				696839981DCD391E0002F3D0 /* Realm */,
 				694AF89A1DC4E4E100FF0B35 /* Model */,
 				695F55BB1DC10E0400AD7A2F /* Network */,
 				695F55851DC106B300AD7A2F /* AppDelegate.h */,
@@ -217,6 +221,15 @@
 				696E41B01DC912DE00F3A83E /* APIManager.m */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		696839981DCD391E0002F3D0 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				6968399C1DCD3A420002F3D0 /* ArticleRealm.h */,
+				6968399D1DCD3A420002F3D0 /* ArticleRealm.m */,
+			);
+			name = Realm;
 			sourceTree = "<group>";
 		};
 		764D274681B59DD8DF13DC88 /* Frameworks */ = {
@@ -300,7 +313,7 @@
 		695F55771DC106B300AD7A2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Latchezar Mladenov";
 				TargetAttributes = {
 					695F557E1DC106B300AD7A2F = {
@@ -515,6 +528,7 @@
 				695F55BE1DC10ED200AD7A2F /* SessionManager.m in Sources */,
 				695F55901DC106B300AD7A2F /* DetailViewController.m in Sources */,
 				695F558D1DC106B300AD7A2F /* MasterViewController.m in Sources */,
+				6968399E1DCD3A420002F3D0 /* ArticleRealm.m in Sources */,
 				694AF8A01DC7AC3100FF0B35 /* ArticleListResponseModel.m in Sources */,
 				696E41B11DC912DE00F3A83E /* APIManager.m in Sources */,
 				695F558A1DC106B300AD7A2F /* FounderNinja.xcdatamodeld in Sources */,
@@ -594,6 +608,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -641,6 +656,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
